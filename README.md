@@ -16,15 +16,14 @@ A placeholder for the original object is created, which controls access to said 
 
 This pattern relies on composition as well, in which the Proxy object creates and delegates tasks to the real object.
 
-### ¿Cuál es la principal diferencia entre el patrón Decorator y el patrón Proxy?
-
+### What is the main difference between the Decorator and Proxy patterns
 Composition is used in both patterns in order to delegate tasks. However, the patterns have completely different functionalities from one another:
 
 Proxy works as a placeholder of a real object. The client interacts directly with the Proxy object, but not with the real one. The Proxy manages the life cicle of the real object and delegates client requests to it.
 
 Decorator does not substitue another object. Instead its function is the addition of new behaviours. In order to add multiple functionalities to an object, multiple decorators can be added. Moreover, decorators are managed directly by the client. 
 
-### ¿En qué tipo de escenarios usarías cada uno?
+### In which scenarios would you use each pattern?
 
 I would use Proxy for objects that needed to be initialized in runtime, specially those that would otherwise consume plenty of resources. I would also use it for security reasons, allowing the client to interact solely with the Proxy object. The Proxy would allow access only to certain methods or to clients with specific credentials. I could also use it to access an object remotely.
 
