@@ -1,11 +1,15 @@
-# Structural Patterns / Patrones Estructurales
+# Structural Patterns
 
 Software architecture class exercise for understanding Decorator and Proxy patterns.
 
-Ejercicio de la clase de arquitectura de software para entender los patrones Proxy y Decorator. 
-Para la versión en español: [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/README.es.md)
-
 Reference: Refactoring.Guru. (n. d.). Structural design patterns. https://refactoring.guru/design-patterns/structural-patterns
+
+
+ 
+### Patrones Estructurales
+Ejercicio de la clase de arquitectura de software para entender los patrones Proxy y Decorator.
+Para la versión en español: https://github.com/ZAnaKarenZ/structural-patterns/blob/main/README.es.md
+
 
 ## Decorator
 It allows you to add new behaviors to objects by wrapping them inside other objects containing such behaviors. 
