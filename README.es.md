@@ -1,4 +1,4 @@
-#Patrones Estructurales
+# Patrones Estructurales
 
 English version: https://github.com/ZAnaKarenZ/structural-patterns/blob/main/README.md
 
