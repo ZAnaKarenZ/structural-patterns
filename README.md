@@ -32,3 +32,8 @@ Concrete examples could include database or bank account access management.
 I would use Decorator in case I need to add multiple functionalities to an already existing object. Specially if I know multiple combinations of functionalities are allowed.
 
 A concrete example where I have used this pattern is during web page creation. Decorators can wrap a page in order to add specific functionalities or global variables.
+
+## Decorator UML Diagram
+
+
+### Decorator execution examples
