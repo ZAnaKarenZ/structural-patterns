@@ -35,9 +35,9 @@ Utilizaría Decorator cuando necesite añadir múltiples funcionalidades a un ob
 
 Un ejemplo concreto donde he utilizado este patrón es al momento de crear páginas web, pues puedes añadir decoradores a una página para agregar nuevas funcionalidades o variables globales.
 
-## Decorator UML Diagram
+## Diagrama UML
 <img src="./UML.png" alt="UML Diagram" width=750 height=400>
 
-### Decorator execution examples
+### Ejemplos de ejecución
 <img src="./Result.png" alt="Result">
 <img src="./Result2.png" alt="Result 2">
