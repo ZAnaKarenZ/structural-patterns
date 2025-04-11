@@ -34,6 +34,10 @@ I would use Decorator in case I need to add multiple functionalities to an alrea
 A concrete example where I have used this pattern is during web page creation. Decorators can wrap a page in order to add specific functionalities or global variables.
 
 ## Decorator UML Diagram
+<img src="./UML.png" alt="UML Diagram" width=750 height=400>
 
 
 ### Decorator execution examples
+<img src="./Result.png" alt="Result">
+<img src="./Result2.png" alt="Result 2">
+
