@@ -34,3 +34,10 @@ Algunos ejemplos más concretos, podrían ser manejar el acceso a una base de da
 Utilizaría Decorator cuando necesite añadir múltiples funcionalidades a un objeto ya existente, especialmente en casos donde pueda haber distintas combinaciones de decoradores.   
 
 Un ejemplo concreto donde he utilizado este patrón es al momento de crear páginas web, pues puedes añadir decoradores a una página para agregar nuevas funcionalidades o variables globales.
+
+## Decorator UML Diagram
+<img src="./UML.png" alt="UML Diagram" width=750 height=400>
+
+### Decorator execution examples
+<img src="./Result.png" alt="Result">
+<img src="./Result2.png" alt="Result 2">
