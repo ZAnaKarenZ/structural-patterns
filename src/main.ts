@@ -1,50 +1,8 @@
-interface Coffee {
-    getCoffee(): string;
-    getPrice(): number;
-}
+import {Coffee} from "./components/Coffee";
+import {Espresso} from "./components/Espresso";
+import {MilkDecorator} from "./decorators/MilkDecorator";
+import {CinnamonDecorator} from "./decorators/CinnamonDecorator";
 
-class Espresso implements Coffee {
-    public getCoffee(): string {
-        return 'Espresso ☕';
-    }
-    public getPrice(): number {
-        return 1.5;
-    }
-}
-
-class AbstractDecorator implements Coffee {
-    protected coffee: Coffee;
-
-    constructor(coffee: Coffee) {
-        this.coffee = coffee;
-    }
-
-    public getCoffee(): string {
-        return this.coffee.getCoffee();
-    }
-
-    public getPrice(): number {
-        return this.coffee.getPrice();
-    }
-}
-
-class MilkDecorator extends AbstractDecorator {
-    public getCoffee(): string {
-        return `${super.getCoffee()} + Milk 🥛`;
-    }
-    public getPrice(): number {
-        return super.getPrice() + 1;
-    }
-}
-
-class CinnamonDecorator extends AbstractDecorator {
-    public getCoffee(): string {
-        return `⋆.˚✮ ${super.getCoffee()} + Cinnamon ✮˚.⋆`;
-    }
-    public getPrice(): number {
-        return super.getPrice() + 1;
-    }
-}
 
 function clientCode(coffee: Coffee) {
     console.log(`Order: ${coffee.getCoffee()}\nPrice: $${coffee.getPrice()}`);
